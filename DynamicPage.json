@@ -1,0 +1,194 @@
+{
+  "ROOT": {
+    "type": {
+      "resolvedName": "CanvasArea"
+    },
+    "isCanvas": true,
+    "props": {
+      "background": "#eaeaea"
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [
+      "QTKz9DmAmP",
+      "YvVUQW3y_J"
+    ],
+    "linkedNodes": {}
+  },
+  "QTKz9DmAmP": {
+    "type": {
+      "resolvedName": "ModulelGrid"
+    },
+    "isCanvas": true,
+    "props": {
+      "order": 1,
+      "columnWidth": 98,
+      "children": " "
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {
+      "Grid": "fbFaTgfWuq"
+    },
+    "parent": "ROOT"
+  },
+  "YvVUQW3y_J": {
+    "type": {
+      "resolvedName": "ModulelGrid"
+    },
+    "isCanvas": true,
+    "props": {
+      "order": 3,
+      "columnWidth": 31,
+      "children": " "
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {
+      "Grid": "nXFjO1ClRD"
+    },
+    "parent": "ROOT"
+  },
+  "fbFaTgfWuq": {
+    "type": {
+      "resolvedName": "ColumnContainer"
+    },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [
+      "_rBfR22-1W"
+    ],
+    "linkedNodes": {},
+    "parent": "QTKz9DmAmP"
+  },
+  "_rBfR22-1W": {
+    "type": {
+      "resolvedName": "Column"
+    },
+    "isCanvas": true,
+    "props": {
+      "width": 98,
+      "id": "Column_0"
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [
+      "vJrWUpaEj",
+      "CJp2ZeI-N"
+    ],
+    "linkedNodes": {},
+    "parent": "fbFaTgfWuq"
+  },
+  "nXFjO1ClRD": {
+    "type": {
+      "resolvedName": "ColumnContainer"
+    },
+    "isCanvas": true,
+    "props": {},
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [
+      "WJK7rPKilm",
+      "nX3GxnFplR",
+      "hiCV29UOt4"
+    ],
+    "linkedNodes": {},
+    "parent": "YvVUQW3y_J"
+  },
+  "WJK7rPKilm": {
+    "type": {
+      "resolvedName": "Column"
+    },
+    "isCanvas": true,
+    "props": {
+      "width": 31,
+      "id": "Column_0",
+      "children": " "
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {},
+    "parent": "nXFjO1ClRD"
+  },
+  "nX3GxnFplR": {
+    "type": {
+      "resolvedName": "Column"
+    },
+    "isCanvas": true,
+    "props": {
+      "width": 31,
+      "id": "Column_1",
+      "children": " "
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {},
+    "parent": "nXFjO1ClRD"
+  },
+  "hiCV29UOt4": {
+    "type": {
+      "resolvedName": "Column"
+    },
+    "isCanvas": true,
+    "props": {
+      "width": 31,
+      "id": "Column_2",
+      "children": " "
+    },
+    "displayName": "se",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {},
+    "parent": "nXFjO1ClRD"
+  },
+  "vJrWUpaEj": {
+    "type": {
+      "resolvedName": "Text"
+    },
+    "isCanvas": false,
+    "props": {
+      "text": "Text",
+      "fontSize": 20,
+      "textAlign": "center"
+    },
+    "displayName": "He",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {},
+    "parent": "_rBfR22-1W"
+  },
+  "CJp2ZeI-N": {
+    "type": {
+      "resolvedName": "Button"
+    },
+    "isCanvas": false,
+    "props": {
+      "size": "small",
+      "variant": "contained",
+      "color": "primary",
+      "text": "Button"
+    },
+    "displayName": "Ge",
+    "custom": {},
+    "hidden": false,
+    "nodes": [],
+    "linkedNodes": {},
+    "parent": "_rBfR22-1W"
+  }
+}
